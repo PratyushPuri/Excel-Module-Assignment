@@ -32,7 +32,9 @@ The project uses the widely-used **Sample Superstore Sales dataset**, a business
     *   **Sales Metrics:** Sales, Quantity, Discount, Profit.
     *   **Order Details:** Order Date, Ship Date, Ship Mode, Order ID.
 
-# **Analysis**
+## **Analysis**
+
+> Solution File is `Sample - Superstore - Solution.xlsx`
 
 This project aimed to build and showcase basic to intermediate Excel skills through hands-on tasks with the Sample Superstore dataset which included:
 
@@ -66,5 +68,27 @@ This interactive dashboard provides a complete view of sales, profit, and produc
 This dashboard helps quickly identify revenue drivers, profitability by category, regional opportunities, and the effect of promotional strategies.
 
 ![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)
+
+## **How to Use the Superstore Sales Dashboard**
+
+This interactive dashboard is designed for easy exploration of sales performance. Follow these steps to gain insights:
+
+1.  **Open the File:** Launch the `Sample - Superstore - Solution.xlsx` file in Microsoft Excel.
+
+2.  **Navigate & Interact:**
+    *   **Review KPIs:** Start by looking at the high-level metrics at the top: **Total Sales, Total Profit, and Quantity Sold**.
+    *   **Apply Filters:** Use the interactive slicers, such as **Year** and **Category**, to filter the entire dashboard. For example, select **"2015"** or **"Technology"** to view performance for that specific year or category.
+    *   **Analyze Charts:** Click on or hover over any chart element. Clicking a segment in the **"Sales by Sub-Category"** chart can filter other visuals. Hovering reveals exact values and percentages.
+
+3.  **Refresh Data (If Applicable):**
+    *   If the workbook is linked to an updated dataset, refresh the analysis by going to the **Data** tab and selecting **"Refresh All."**
+
+
+## Author & Contact
+- Name: `Pratyush Puri`
+- Contact: `pratyushpuri17@gmail.com` / [LinkedIn](https://www.linkedin.com/in/pratyushpuri)
+    
+
+
 
 
