@@ -1,5 +1,7 @@
 # Excel-Module-Assignment
 
+![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)
+
 ## 📊 Project Overview
 
 This project is a comprehensive Excel practical assignment demonstrating advanced data manipulation, analysis, and presentation skills using Microsoft Excel. The project covers 12 core sections ranging from basic arithmetic operations to advanced VBA macros, showcasing proficiency in real-world data analysis scenarios using the Sample Superstore Sales dataset.
