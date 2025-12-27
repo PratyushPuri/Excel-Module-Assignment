@@ -1,183 +1,70 @@
 # Excel-Module-Assignment
 
+<div align="center">
+
+<img src="https://pbs.twimg.com/media/G2MxEZuW8AARXT1.jpg" alt="drawing" width="300"/>
+
+</div>
+
+
+<!--![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)-->
+
+## **Overview**
+
+This project helps me apply Excel concepts practically. I can build end-to-end Excel solutions by cleaning, analyzing, and visualizing data to create interactive dashboards that provide clear, actionable business insights.
+
+
+## **Dataset for Analysis**
+
+The project uses the widely-used **Sample Superstore Sales dataset**, a business dataset that simulates sales, profit, and customer data for a global retail chain.
+
+**You can download the dataset directly via this link:**  
+**[Sample Superstore Sales Excel File](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)**
+
+**Dataset Overview:**
+*   **Structure:** The file is an Excel workbook (`.xls`) with multiple sheets that contain interrelated data.
+*   **Key Tables:** The main tables are **Orders**, **Returns**, and **People**. These can be linked to perform a complete analysis.
+*   **Data Scope:** It includes four years of transaction data from 2014 to 2017 across the **United States**, divided into four regions.
+*   **Rich Attributes:** Each record has detailed dimensions and metrics, such as:
+    *   **Customer Details:** Customer Name, Segment.
+    *   **Product Information:** Category, Sub-Category, Product Name.
+    *   **Geographic Data:** Country, Region, State, City, Postal Code.
+    *   **Sales Metrics:** Sales, Quantity, Discount, Profit.
+    *   **Order Details:** Order Date, Ship Date, Ship Mode, Order ID.
+
+# **Analysis**
+
+This project aimed to build and showcase basic to intermediate Excel skills through hands-on tasks with the Sample Superstore dataset which included:
+
+*   **Core Operations:** Learned key functions like `SUM`, `MAX/MIN`, `COUNT` variants, and `POWER` for growth calculations.
+*   **Data Structuring:** Used `TRANSPOSE` and practiced various techniques for cell, number, and text formatting to improve clarity.
+*   **Data Organization:** Applied multi-level sorting and filtering, including by values, text, and cell color.
+*   **Date & Logic:** Performed date calculations (`DATEDIF`, `TODAY`) and included logical tests with `IF`, `AND`, `OR`, and `IFERROR`.
+*   **Data Cleaning:** Carried out thorough cleaning using `TRIM`, `PROPER`, `TEXT TO COLUMNS`, `FIND & REPLACE`, and the `Go To Special` feature to manage duplicates, errors, and inconsistent text.
+*   **Data Analysis:** Created and customized **Pivot Tables** for dynamic summarization, grouping, and conditional formatting.
+*   **Data Lookup & Matching:** Used `VLOOKUP`/`HLOOKUP` for data retrieval and comparison across tables.
+*   **Conditional Aggregation:** Applied `SUMIFS`, `COUNTIFS`, and `AVERAGEIF` to perform calculations based on single and multiple criteria.
+
+This exercise transformed raw sales data into a clean, analyzed, and well-presented dataset, reinforcing my ability to use Excel as an effective tool for business intelligence and reporting.
+
+## **Dashboard Summary**
+
+This interactive dashboard provides a complete view of sales, profit, and product performance over several years.
+
+**Key Performance Indicators (KPIs):**
+*   **Total Sales:** **¥2.29M**; **Total Profit:** **¥286K**.
+*   **Product Breadth:** Covers **17 Sub-Categories** with **9994 units** sold.
+*   **Category Split:** Sales are divided among **Furniture, Office Supplies** and **Technology**.
+
+**Visualizations & Insights:**
+*   **Sales by Sub-Category:** A detailed breakdown shows top-performing items like **Copiers, Phones** and **Chairs**, along with low-margin categories.
+*   **Segment & Region Analysis:** A stacked bar chart shows that the **Consumer segment** leads sales in all regions; the **West** is the top market.
+*   **Top 10 Products:** Highlights specific high-revenue items like **Canon imageCLASS Copiers** and **Cisco TelePresence Systems**.
+*   **Discount Impact:** A critical view shows how discount percentages influence sales volume across various customer segments.
+*   **Sales Trend:** A line chart tracks monthly sales and profit over time; it reveals seasonal peaks, such as in November, and troughs.
+
+This dashboard helps quickly identify revenue drivers, profitability by category, regional opportunities, and the effect of promotional strategies.
+
 ![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)
 
-## 📊 Project Overview
 
-This project is a comprehensive Excel practical assignment demonstrating advanced data manipulation, analysis, and presentation skills using Microsoft Excel. The project covers 12 core sections ranging from basic arithmetic operations to advanced VBA macros, showcasing proficiency in real-world data analysis scenarios using the Sample Superstore Sales dataset.
-
-## 🎯 Objective
-
-To develop practical expertise in Excel through hands-on tasks covering:
-- Data manipulation and transformation
-- Statistical analysis and calculations
-- Data visualization and formatting
-- Automated reporting and macro development
-- Business intelligence techniques
-
-## 📁 Dataset Information
-
-**Data Source:** [Sample Superstore Sales Dataset](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)
-
-The Sample Superstore dataset contains retail sales data with information about:
-- Product categories and subcategories
-- Sales transactions and amounts
-- Customer segments and regions
-- Order dates and shipping details
-- Profit and discount information
-
-## 🛠️ Tools & Technologies
-
-- **Microsoft Excel**: Primary tool for all analysis
-- **Excel Functions**: SUM, MAX, MIN, VLOOKUP, IF, COUNTIF, SUMIF, and more
-- **Pivot Tables**: Data summarization and analysis
-- **Conditional Formatting**: Visual data representation
-- **VBA Macros**: Process automation
-- **Power Query**: Data transformation
-
-## 📚 Project Sections
-
-### Section 1: Basics of Excel
-- **Basic Arithmetic Operations**: SUM, MAX, MIN, SMALL, LARGE, MEDIAN functions
-- **TRANSPOSE Formula**: Manual vs formula-based transposition
-- **Counting Functions**: COUNTBLANK, COUNT, COUNTA
-- **Status Bar Calculations**: Quick analysis techniques
-- **Growth Analysis**: YoY growth percentage and POWER formula for CAGR
-
-### Section 2: Formatting Options in Excel
-- **Cell Formatting**: Currency, percentage, and custom number formats
-- **Text Formatting**: Wrap text, alignment, and merge & center
-- **Format Painter**: Efficient formatting replication
-- **Advanced Formatting**: Conditional formatting, color scales, data bars
-
-### Section 3: Sort and Filter Options
-- **Sorting Techniques**: Numbers, dates, text (A-Z, Z-A)
-- **Advanced Sorting**: Multi-level sorting, sorting by cell color
-- **Filtering**: Custom filters and advanced filter criteria
-- **Data Organization**: Hierarchical data arrangement
-
-### Section 4: Working with Dates
-- **Date Calculations**: Duration calculations with timestamps
-- **Date Functions**: TODAY, DATE, YEAR, MONTH, DAY, DATEDIF
-- **Date Formatting**: Custom date displays
-- **Dynamic Date Analysis**: Time-based calculations
-
-### Section 5: Logical Functions
-- **Basic Logical Functions**: IF, AND, OR
-- **Advanced Logic**: IFERROR for error handling
-- **Complex Conditions**: Nested IF statements and multiple criteria
-- **Data Classification**: Conditional categorization
-
-### Section 6: Practical Data Cleaning
-- **Duplicate Removal**: Identifying and removing duplicates
-- **Text Functions**: UPPER, PROPER, LOWER, TRIM, LEN
-- **String Manipulation**: RIGHT, LEFT, MID, SEARCH, FIND
-- **Data Transformation**: Text to Columns, CONCATENATE, Find & Replace
-- **Go To Special**: Advanced cell selection techniques
-
-### Section 7: Pivot Table A-Z
-- **Pivot Table Creation**: Data summarization and analysis
-- **Grouping**: Date grouping and custom grouping
-- **Multiple Tables**: Comparative analysis
-- **Conditional Formatting in Pivot Tables**: Visual enhancements
-- **Advanced Pivot Techniques**: Calculated fields and items
-
-### Section 8: LOOKUP Formulas
-- **VLOOKUP**: Vertical lookup for data retrieval
-- **HLOOKUP**: Horizontal lookup techniques
-- **Exact vs Approximate Match**: Understanding lookup parameters
-- **Error Handling**: VLOOKUP with IFERROR
-- **Named Ranges**: Enhanced formula readability
-
-### Section 9: Conditional Aggregation
-- **Single Criteria**: COUNTIF, SUMIF, AVERAGEIF
-- **Multiple Criteria**: COUNTIFS, SUMIFS, AVERAGEIFS
-- **Complex Aggregations**: Combining multiple conditions
-- **Business Metrics**: KPI calculations
-
-### Section 10: Conditional Formatting
-- **Color-Based Formatting**: Highlighting cells based on conditions
-- **Color Scales**: Gradient visualizations
-- **Data Bars**: In-cell bar charts
-- **Icon Sets**: Visual performance indicators
-- **Custom Rules**: Advanced conditional formatting logic
-
-## 🎯 Key Skills Demonstrated
-
-### Data Analysis
-- Statistical calculations and trend analysis
-- Growth rate and CAGR computation
-- Conditional aggregation and summarization
-- Pivot table analysis
-
-### Data Cleaning & Transformation
-- Removing duplicates and handling missing data
-- Text standardization and formatting
-- String manipulation and parsing
-- Data type conversion
-
-### Automation & Efficiency
-- VBA macro development
-- Repetitive task automation
-- Batch processing techniques
-- Custom function creation
-
-### Visualization & Reporting
-- Conditional formatting for insights
-- Multi-level data visualization
-- Dashboard creation concepts
-- Professional report formatting
-
-
-## 🚀 Getting Started
-
-1. Download the [Sample Superstore Sales dataset](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)
-2. Open the `Sample - Superstore - Solution.xlsx` workbook
-3. Navigate through each section's worksheet tabs
-4. Review formulas, pivot tables, and formatting applied
-5. Enable macros for Section 12 (if prompted)
-
-## 💡 Key Learning Outcomes
-
-- **Proficiency** in Excel functions and formulas for data analysis
-- **Expertise** in data cleaning and transformation techniques
-- **Understanding** of pivot tables for business intelligence
-- **Competency** in conditional formatting for data visualization
-- **Ability** to create comprehensive reports and dashboards
-
-## 📈 Business Applications
-
-This project demonstrates skills applicable to:
-- Sales analysis and forecasting
-- Inventory management
-- Financial reporting and budgeting
-- Customer segmentation analysis
-- Performance tracking and KPI monitoring
-- Automated report generation
-
-## 🎓 Assignment Completion
-
-All tasks completed include:
-- Basic to advanced Excel functions
-- Data cleaning and transformation
-- Pivot table analysis
-- LOOKUP formulas implementation
-- Conditional aggregation
-
-## 👤 Author
-
-**Pratyush Puri**  
-Data Analyst | Excel & Business Intelligence Enthusiast
-
-## 📝 Skills Showcased
-
-`Excel` `Data Analysis` `Data Cleaning` `Pivot Tables` `VLOOKUP` `Conditional Formatting` `Business Intelligence` `Data Visualization` `Statistical Analysis`
-
-## 🤝 Acknowledgments
-
-- Sample Superstore dataset from Tableau Community
-- Excel Module Assignment framework
-
----
-
-*This project demonstrates comprehensive Excel skills suitable for data analyst, business analyst, and business intelligence roles.*
