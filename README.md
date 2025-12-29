@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://pbs.twimg.com/media/G2MxEZuW8AARXT1.jpg" alt="drawing" width="300"/>
+<img src="excel.jpeg" alt="drawing" width="300"/>
 
 </div>
 
@@ -67,7 +67,11 @@ This interactive dashboard provides a complete view of sales, profit, and produc
 
 This dashboard helps quickly identify revenue drivers, profitability by category, regional opportunities, and the effect of promotional strategies.
 
-![Excel](https://raw.githubusercontent.com/PratyushPuri/Excel-Module-Assignment/refs/heads/main/Assn1%20Dash.png)
+---
+
+![Excel](/Assn1%20Dash.png)
+
+---
 
 ## **How to Use the Superstore Sales Dashboard**
 
